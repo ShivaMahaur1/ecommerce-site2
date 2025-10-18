@@ -1,0 +1,7 @@
+[build]
+  base = "frontend"            # folder where your Next.js project lives
+  command = "npm run build"    # build command for Next.js
+  publish = "frontend/.next"   # folder to deploy
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
